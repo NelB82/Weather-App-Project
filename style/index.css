@@ -1,0 +1,123 @@
+body {
+  padding: 60px 300px;
+}
+#currentlocation {
+  width: 200px;
+  margin-top: 50px;
+}
+
+#currentlocation:hover {
+  opacity: 70%;
+  cursor: pointer;
+  transition: 150ms ease-in-out;
+  border-style: solid;
+}
+
+.app {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-style: solid;
+  border-radius: 50px;
+  border-color: #f5a841;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Source Code Pro", monospace;
+}
+h1 {
+  font-weight: 900px;
+}
+h2 {
+  font-weight: 300px;
+}
+.city {
+  font-size: 25px;
+}
+.date {
+  font-size: 20px !important;
+}
+
+.image {
+  margin: 30px;
+}
+.searchfield {
+  width: 200px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#buttonInputSearch {
+  width: 50px;
+  margin-top: 40px;
+}
+
+#exampleInputSearch {
+  background-color: rgb(231, 192, 152);
+  border-color: black;
+}
+#exampleInputSearch:hover {
+  opacity: 70%;
+  cursor: pointer;
+  transition: 150ms ease-in-out;
+  border-style: solid;
+}
+
+button:hover {
+  opacity: 70%;
+  cursor: pointer;
+  transition: 150ms ease-in-out;
+  border-style: solid;
+}
+.selectedcity {
+  margin-bottom: 30px;
+  padding-left: 40px;
+}
+
+.components {
+  max-width: 850px;
+  padding-left: 10px;
+  padding-bottom: 40px;
+}
+
+.black {
+  color: black;
+  opacity: 60%;
+}
+.black:hover {
+  color: black;
+  opacity: 100%;
+  transition: 150ms ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.week {
+  max-width: 200px;
+  text-align: center;
+}
+.week:hover {
+  cursor: pointer;
+  opacity: 70%;
+  transition: 150ms ease-in-out;
+}
+.capitols {
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 55px;
+}
+
+.favorite {
+  color: black;
+  opacity: 60%;
+}
+
+.favorite:hover {
+  opacity: 100%;
+  cursor: pointer;
+  transition: 150ms ease-in-out;
+}
